@@ -127,3 +127,12 @@ for (let i = 0; i < netArr.length; i++) {
     changeSum += netArr[i];
     
 }
+average = Math.round((changeSum / 86) * 100) / 100; 
+analysis =  'Financial Analysis' + '\n' + 
+'----------------------------' + '\n' + 
+'Total Months: ' + months + '\n' +
+'Total: ' + total + '\n' +
+'Average  Change: ' + average + '\n' +
+'Greatest Increase in ' + greatIncrease[0] + ': $' + greatIncrease[1] + '\n' +
+'Greatest Decrease in ' + greatDecrease[0] + ': $' + greatDecrease[1];
+console.log(analysis)
