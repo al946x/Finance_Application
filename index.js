@@ -123,3 +123,7 @@ for (let i = 0; i < finances.length; i++) {
     }
 
 }
+for (let i = 0; i < netArr.length; i++) {
+    changeSum += netArr[i];
+    
+}
