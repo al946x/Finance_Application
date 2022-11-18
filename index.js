@@ -110,3 +110,7 @@ for (let i = 0; i < finances.length; i++) {
             net = finances[i][j];
             // console.log(net)
             netArr.push(change);
+            if (change > greatIncrease[1]) {
+                greatIncrease = [finances[i][0], finances[i][1]];
+
+            }
