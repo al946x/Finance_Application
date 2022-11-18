@@ -114,3 +114,12 @@ for (let i = 0; i < finances.length; i++) {
                 greatIncrease = [finances[i][0], finances[i][1]];
 
             }
+            if (change < greatDecrease[1]) {
+                greatDecrease = [finances[i][0], finances[i][1]];
+
+            }
+        }
+
+    }
+
+}
