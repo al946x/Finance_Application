@@ -101,3 +101,12 @@ var greatIncrease = ['', 0];
 var greatDecrease = ['', 9999999999999]
 
 for (let i = 0; i < finances.length; i++) {
+    for (let j = 0; j < finances[i].length; j++) {
+        if (typeof finances[i][j] !== 'string') {
+            total += finances[i][j]
+            change = finances[i][j] - net;
+            // console.log(total)
+            // console.log(change)
+            net = finances[i][j];
+            // console.log(net)
+            netArr.push(change);
