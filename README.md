@@ -1,7 +1,7 @@
 # Finance_Application JS Challenge
 
 # Description
-In this challenge I was required to find the total months, average change, profits and losses in a set of nested arrays. It required me to create nested loops and conditions. 
+In this challenge I was required to create a  multiple choice quizz app using JavaScript
 
 # Installation 
 Click on the live link or access through the git hub repo
